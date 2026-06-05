@@ -1,0 +1,14 @@
+reward:
+  speed: 1.0
+  progress: 2.0
+  center: 0.5
+  look_ahead: 0.3
+  edge: 10.0
+  edge_speed: 0.18
+  steer_speed: 0.7
+  backward: 5.0
+  steer_smooth: 0.3
+  steer_mag: 0.5
+  idle: 1.0
+  damage: 0.5
+  grace_bonus: 1.0

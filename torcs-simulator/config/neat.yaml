@@ -1,0 +1,24 @@
+neat:
+  population_size: 48
+  max_generations: 200
+  parallel_workers: 4
+  episode_steps: 3000
+  checkpoint_interval: 10
+
+  # Default neat-python config values
+  compat_threshold: 3.0
+  excess_coeff: 1.0
+  weight_diff_coeff: 1.0
+  node_add_prob: 0.2
+  node_delete_prob: 0.1
+  conn_add_prob: 0.5
+  conn_delete_prob: 0.2
+  mutate_weight_prob: 0.8
+  mutate_weight_power: 0.5
+  mutate_weights_perturb: 0.5
+  mutate_weights_replace: 0.1
+  mutate_activation_prob: 0.1
+  mutate_bias_prob: 0.2
+  elitism: 2
+  survival_threshold: 0.2
+  species_elitism: 2

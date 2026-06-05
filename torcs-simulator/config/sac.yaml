@@ -1,0 +1,12 @@
+sac:
+  learning_rate: 0.0003
+  gamma: 0.99
+  tau: 0.005
+  alpha: auto
+  buffer_size: 1_000_000
+  batch_size: 256
+  learning_starts: 10_000
+  sync_actor_every: 200
+  hidden_dim: 256
+  n_hidden: 2
+  policy_freq: 2

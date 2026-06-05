@@ -1,0 +1,21 @@
+[project]
+name = "torcs-simulator"
+version = "0.1.0"
+description = "TORCS RL & NEAT agents training framework"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "torch>=2.0",
+    "gymnasium>=1.0",
+    "numpy>=1.26",
+    "pyyaml>=6.0",
+    "neat-python>=0.92",
+    "pygame>=2.6",
+    "opencv-python>=4.11",
+    "stable-baselines3>=2.6",
+    "tensorboard>=2.18",
+    "matplotlib>=3.10",
+    "pandas>=2.2",
+    "pillow>=11.2",
+    "ruff>=0.15.14",
+]

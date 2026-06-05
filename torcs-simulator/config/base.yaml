@@ -1,0 +1,26 @@
+torcs:
+  ports: [3001, 3002, 3003, 3004]
+  timeout: 1.0
+  max_steps: 10000
+  max_reconnect_attempts: 5
+  reconnect_delay_sec: 3.0
+  grace_steps: 100
+  offtrack_limit: 1.5
+  offtrack_patience: 5
+  stuck_speed_threshold: 2.0
+  stuck_steps: 100
+
+action:
+  smoothing_alpha: 0.5
+  repeat: 4
+  min_accel: 0.2
+
+logging:
+  backend: tensorboard
+  log_dir: runs/
+
+checkpoint:
+  dir: checkpoints/
+  save_on_valid_lap: true
+  save_on_exit: true
+  save_on_crash: true
